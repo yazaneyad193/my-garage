@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Car Garage</title>
+    <link rel="stylesheet" href="CSS/reset.css">
+    <link rel="stylesheet" href="CSS/carStyle.css">
+</head>
+
+<body>
+    <header>
+        <h3>My Car Garage</h3>
+    </header>
+    <main>
+        <div id="left-side">
+
+            <form id="myCarsSubmission">
+
+                <label for="carName">Car Name</label><br>
+                <input type="text" name="carName">
+                <br>
+                <label for="categoryModel">Category Model</label><br>
+                <select name="categoryModel" id="">
+                    <option value="BMW">BMW</option>
+                    <option value="Lexus">Lexus</option>
+                    <option value="Toyota">Toyota</option>
+                    <option value="Tesla">Tesla</option>
+                    <option value="Chevrolet">BMW</option>
+                    <option value="Hyundai">Hyundai</option>
+                    <option value="KIA">KIA</option>
+                </select>
+                <br>
+                <label for="modelYear">Model Year</label><br>
+                <select name="modelYear" id="">
+                    <option value="2016">2016</option>
+                    <option value="2017">2017</option>
+                    <option value="2018">2017</option>
+                    <option value="2019">2017</option>
+                    <option value="2020">2017</option>
+                </select>
+                <br>
+                <input type="submit" value="submit">
+            </form>
+        </div>
+
+        <div id="tableDiv">
+            <table id="table-side">
+
+            </table>
+        </div>
+
+    </main>
+    <footer></footer>
+    <script src="JS/carScripts.js"></script>
+</body>
+
+</html>

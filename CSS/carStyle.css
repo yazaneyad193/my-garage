@@ -1,0 +1,85 @@
+body{
+    background-image: url("/images/background.jpg");
+}
+
+
+
+header{
+
+    background-color: gray;
+    color: white;
+    font-size: x-large;
+    padding: 60px;
+    text-align: center;
+}
+
+
+
+main{
+    width: 100%;
+    display: inline-block;
+}
+
+
+#left-side{
+    text-align: center;
+    margin-top: 20px;
+    width: 30%;
+    height: 225px;
+    background-color: gray;
+    font-size: large;
+    color: white;
+    padding: 30px;
+    margin-right: 20px;
+    
+}
+label{
+    width: 30%;
+}
+input[type=text] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+  
+  select{
+    width: 30%;
+    padding: 6px 100px;
+  }
+
+
+
+#tableDiv{
+    background-color: gray;
+    width: 40%;
+    float: right;
+    margin-top: -240px;
+  
+}
+  #table-side{
+      color: white;
+      font-size: xx-large;
+      font-family: Arial, Helvetica, sans-serif;
+      border-collapse: collapse;
+    
+  }
+  #table-side td{
+      padding: 20px;
+  }
+  #table-side td, #table-side th {
+    border: 1px solid #ddd;
+    padding: 50px;
+  }
+
+  input[type=submit]{
+    background-color: black;
+    border: none;
+    color: white;
+    margin-top: 20px;
+    padding: 13px 42px;
+  }
+
+  select option{
+    text-align: center;
+  }
